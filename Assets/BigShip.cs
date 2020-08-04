@@ -3,11 +3,9 @@ using Homebrew;
 
 public class BigShip : MonoBehaviour, ITick {
 
-    public void Awake()
+    private void Awake()
     {
-        var mngUpdate = Toolbox.Get<ManagerUpdate>();
-
-        mngUpdate.ticks.Add(this as ITick);
+        ManagerUpdate.AddTo(this);
     }
     public void Tick()
     {
