@@ -336,5 +336,14 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
+*.asset
+
 # BeatPulse healthcheck temp database
 healthchecksdb
+/Assets/BigShip.prefab
+/Assets/ManagerEvents.asset
+/Assets/ManagerUpdate.asset
+/Library/CurrentLayout-default.dwlt
+/Library/*
+/Library/EditorSnapSettings.asset
+/Temp/*
